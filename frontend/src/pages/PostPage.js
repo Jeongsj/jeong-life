@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PageTemplate from 'components/common/PageTemplate';
+import PostInfo from 'components/post/PostInfo';
 
-class PostPage extends Component {
-    render() {
-        return (
-            <div>
-                Post
-            </div>
-        );
-    }
-}
+const PostPage = () => {
+    return (
+      <PageTemplate>
+          <PostInfo />
+      </PageTemplate>
+    );
+};
 
 export default PostPage;

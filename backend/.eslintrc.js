@@ -2,7 +2,9 @@ const path = require('path');
 
 module.exports = {
     "env": {
-        "browser": true
+        "amd": true,
+        "node": true,
+        "commonjs": true
     },
     "extends": "eslint:recommended",
     "settings": {
@@ -11,9 +13,10 @@ module.exports = {
         },
     },
     "parserOptions": {
-        "ecmaVersion": 5
+        "ecmaVersion": 6
     },
     "rules": {
+        "no-console": "off",
         "indent": [
             "error",
             "tab"

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import PageTemplate from 'components/common/PageTemplate';
 
 class ListPage extends Component {
     render() {
         return (
-            <div>
+            <PageTemplate>
                 List
-            </div>
+            </PageTemplate>
         );
     }
 }

@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import EditorTemplate from 'components/editor/EditorTemplate';
 
-class EditorPage extends Component {
-    render() {
-        return (
-            <div>
-                Editor
-            </div>
-        );
-    }
-}
+const EditorPage = () => {
+    return (
+        <EditorTemplate
+          header="헤더"
+          preview="프리뷰"
+          editor="에디터"
+        />
+    );
+};
 
 export default EditorPage;

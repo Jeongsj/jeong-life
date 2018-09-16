@@ -8,7 +8,7 @@ const cx = classNames.bind(styles);
 const EditorHeader = ({onGoBack, onSubmit, isEdit}) => {
     return (
         <div className={cx('editor-header')}>
-            <div class  Name={cx('back')}>
+            <div className={cx('back')}>
                 <Button onClick={onGoBack} theme="outline">뒤로가기</Button>
             </div>
             

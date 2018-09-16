@@ -1,7 +1,7 @@
 import React from 'react';
 import EditorTemplate from 'components/editor/EditorTemplate';
 import EditorHeader from 'components/editor/EditorHeader';
-import EditorPane from 'components/editor/EditorPane';
+import EditorPaneContainer from 'containers/editor/EditorPaneContainer';
 import PreviewPane from 'components/editor/PreviewPane';
 
 const EditorPage = () => {
@@ -9,7 +9,7 @@ const EditorPage = () => {
         <EditorTemplate
           header={<EditorHeader />}
           preview={<PreviewPane />}
-          editor={<EditorPane />}
+          editor={<EditorPaneContainer />}
         />
     );
 };
